@@ -1,0 +1,218 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #B2CED5; 
+}
+
+/* STYLE TEXT */
+.helpText{   /*Styling the paragraph text in the how to help section*/
+    font-size: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: #D3D3C5;
+  margin-left: 10%;
+  margin-right:10%;
+  color: #493548;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #B2CED5;
+  font-family: "DejaVu Sans Mono", monospace;
+}
+#mainText{  /*Styling the big text on the home page*/
+  background-color:#D3D3C5;
+  padding: 2%;
+  font-size: 100%;
+  font-family: "Courier", monospace;
+  color: #493548;
+  text-shadow: 2px 2px #C1B9CB;
+  border-style:inset;
+  border-color: #B2CED5;
+}
+
+h1 {
+  color: navy;
+}
+
+#problem{  /*Styling header that says "The Problem"*/
+  font-size: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: #D3D3C5;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 3%;
+  color: #493548;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #B2CED5;
+  font-family: "Courier", monospace;
+}
+#problem2{  /*Styling the paragraph text under "the Problem"*/
+  font-size: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: #D3D3C5;
+  margin-left: 10%;
+  margin-right:10%;
+  color: #493548;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #B2CED5;
+  font-family: "DejaVu Sans Mono", monospace;
+  margin-bottom: 3%;
+}
+
+#factGenerator{   /*Styling the facy generator*/
+  font-size: 100%;
+  text-align:center;
+  padding: 2%;
+  background-color: #D3D3C5;
+  margin-left: 10%;
+  margin-right:10%;
+  color: #493548;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #B2CED5;
+  font-family: "DejaVu Sans Mono", monospace;
+
+  margin-bottom: 1%;
+  
+}
+
+#factText{  /*Styling the facts that come in the generator*/
+  padding: 2%;
+  font-size: 100%;
+}
+
+.help{   /*styling the headers for the How to Help page*/
+  text-align:center;
+  padding: 1%;
+  background-color: #D3D3C5;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 3%;
+  color: #493548;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #B2CED5;
+  font-family: "Courier", monospace;
+  font-size: 100%;
+}
+
+/* STYLE IMAGES */
+.container{
+  position: relative;
+  text-align: center;
+  color: black;
+
+}
+
+#img1{
+  width: 100%;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#one{   /*Styling first image on How to Help*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:35%;
+    border-style:inset;
+  border-color: #B2CED5;
+    border-width: 5px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+}  
+
+
+#two{   /*Styling second image on How to Help*/
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:35%;
+/*   padding: 2%; */
+  border-style:inset;
+  border-color: #B2CED5;
+  border-width: 5px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+#ss{  /*Styling the slideshow*/
+  margin-top: 2%;
+  border-style: inset;
+  border-color: #B2CED5;
+  border-width: 5px;
+}
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: #493548;
+  overflow: hidden;
+  padding: 2%;
+  text-align:center;
+}
+
+li{
+  display: inline;
+}
+li a{
+  color: #D3D3C5;
+  text-decoration: none;
+  font-size: 100%;
+  padding: 2%;
+   font-family:  monospace;
+}
+li a:hover{
+  background-color: #784a76;
+}
+
+
+
+
+
+
+
+
+/* STYLE BUTTONS */
+
+button{
+  background-color: #493548;
+  color:white;
+  padding: 1%;
+  font-family: "Courier", monospace;
+  margin-top: 1%;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.buttons{
+  padding: 1%;
+  margin-right:40%;
+  margin-left:40%;
+  margin-bottom: 5%;
+}
+button:hover{
+  background-color: #784a76;
+}
+
+button:active {
+  background-color: #592557;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+#generate{
+  font-family: "Verdana", sans-serif;
+
+}
